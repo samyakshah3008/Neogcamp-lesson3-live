@@ -1,20 +1,18 @@
-body {
-    color:red;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
+
+body{
+    font-family: 'Merriweather', serif;
 }
 
-h1 {
-    color:blue;
+/** Container **/
+
+.container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-#Lib-Header {
-    color:grey
-}
-
-h2 {
-    color:green;
-}
-
-#Para {
-    color:hotpink;
-}
+.container-center {
+    max-width: 600px;
+    margin: auto;
+} 
 
