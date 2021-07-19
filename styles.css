@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Merriweather', serif;
+    margin: 0px;
 }
 
 :root {
@@ -113,3 +114,22 @@ margin: auto;
 .off-white{
     background-color: var(--off-white-color);
 }
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+
+
+}
+
+.footer .link{
+    color: white;
+}
+
+
+
+
+
+
