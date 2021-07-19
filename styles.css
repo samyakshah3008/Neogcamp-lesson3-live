@@ -4,6 +4,13 @@ body{
     font-family: 'Merriweather', serif;
 }
 
+:root {
+    --primary-color: purple;    
+}
+
+hr {
+    margin: 2rem 0rem;
+}
 /** Container **/
 
 .container-fluid {
@@ -13,6 +20,32 @@ body{
 
 .container-center {
     max-width: 600px;
-    margin: auto;
+    margin:auto;
 } 
 
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color)
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
