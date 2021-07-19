@@ -6,7 +6,8 @@ body{
 
 :root {
     --primary-color: #8B5CF6; 
-    --grey-color: #6B7280;   
+    --grey-color: #6B7280;  
+    --off-white-color:#F3F4F6; 
 }
 
 hr {
@@ -93,6 +94,8 @@ margin: auto;
 
 .hero .hero-heading{
     color: var(--grey-color) ;
+    text-align: center;
+
     
 }
 
@@ -101,3 +104,12 @@ margin: auto;
   
 }
 
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+.off-white{
+    background-color: var(--off-white-color);
+}
