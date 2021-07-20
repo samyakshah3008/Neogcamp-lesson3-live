@@ -8,7 +8,7 @@ body{
 :root {
     --primary-color: #8B5CF6; 
     --grey-color: #6B7280;  
-    --off-white-color:#F3F4F6; 
+    --off-white-color:#D1D5DB; 
 }
 
 hr {
@@ -29,14 +29,18 @@ hr {
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    
 }
 
 .link-primary{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    
 
 }
+
+
 
 .link-secondary{
     color: var(--primary-color);
@@ -128,7 +132,10 @@ margin: auto;
     color: white;
 }
 
-
+.footer .footer-header{
+    font-weight: bold;
+    font-size: x-large;
+}
 
 
 
